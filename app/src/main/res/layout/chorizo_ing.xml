@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3A700">
+
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/categ_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chorizo"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="352dp"
+        android:contentDescription="Icon Description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_favorite_border_24"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="640dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comment" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ingredients"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
